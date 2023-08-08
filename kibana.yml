@@ -1,0 +1,7 @@
+xpack.security.authc.providers: [ldap-plugin]
+xpack.security.authc.ldap-plugin.order: 0
+xpack.security.authc.ldap-plugin.realm: ldap-realm
+xpack.security.authc.ldap-plugin.ldapUrl: "ldaps://ldap.example.com'"
+xpack.security.authc.ldap-plugin.bindDN: "cn=admin,dc=example,dc=com"
+xpack.security.authc.ldap-plugin.bindCredentials: "adminPassword"
+xpack.security.authc.ldap-plugin.userOU: "ou=users,dc=example,dc=com"
