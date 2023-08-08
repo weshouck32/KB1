@@ -1,0 +1,25 @@
+kibana.json
+{
+  "id": "kibana-ldap-plugin",
+  "version": "7.17.9",
+  "kibanaVersion": "kibana",
+  "server": false,
+  "ui": false,
+  "owner": {
+    "name": "Kibana Operations",
+    "githubTeam": "kibana-operations"
+  }
+}
+
+
+tsconfig.json
+{
+  "extends": "../../../tsconfig.base.json",
+  "compilerOptions": {
+    "outDir": "./target/types"
+  },
+  "include": [
+    "server/**/*",
+  ],
+  "references": []
+}
